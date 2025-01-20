@@ -1,0 +1,110 @@
+/* Define Colors */
+:root {
+  --background-color: #a2bef6; /* Replace with your background color */
+  --text-color: #3d4068; /* Replace with your text color */
+  --link-color: #3819b4; /* Replace with your link color */
+  --hover-color: #080967; /* Replace with your hover color */
+}
+
+/* General Styling */
+.footer {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 50px 20px;
+  font-family: 'LT Saeade', Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Left Section */
+.footer-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  margin: 8px 0;
+}
+
+.footer-left a {
+  color: var(--link-color);
+  text-decoration: underline;
+}
+
+.footer-left a:hover {
+  color: var(--hover-color);
+}
+
+/* Middle Section */
+.footer-links {
+  flex: 1;
+  min-width: 300px;
+  margin-left: 200px;
+}
+
+.footer-links h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin: 5px 0;
+}
+
+.footer-links a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: var(--hover-color);
+}
+
+/* Social Section */
+.footer-social {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-social h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.social-icon i {
+  margin-right: 28px;
+}
+
+.social-icon:hover {
+  color: var(--hover-color);
+}

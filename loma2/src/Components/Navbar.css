@@ -1,0 +1,76 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Reduced padding to fit content */
+    background-color: #bbc6ed;
+    z-index: 9999;
+    box-sizing: border-box; /* Ensures padding does not overflow the navbar */
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 50px; /* Adjust the size of the logo */
+    width: auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: rgb(32, 25, 156);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: 'LT Saeade', sans-serif;
+    padding: 10px;
+  }
+  
+  .nav-links a:hover {
+    background-color: #7564d7;
+    border-radius: 5px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center; /* Center search input and button */
+  }
+  
+  .search-bar input {
+    padding: 3px;
+    margin-right: 10px;
+    font-size: 1rem;
+    border-radius: 20px; /* Added border-radius for better appearance */
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #1614ad;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px; /* Border-radius to match input style */
+  }
+  
+  .search-bar button:hover {
+    background-color: #7ab1eb;
+  }
+  
+  /* Add padding to body to ensure content does not overlap with navbar */
+  body {
+    padding-top: 80px; /* Ensure this is the height of your navbar */
+  }
+  
